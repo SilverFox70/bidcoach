@@ -10,6 +10,8 @@ Run <tt>rake db:create</tt>
 
 Run <tt>rake db:migrate</tt>
 
+Run <tt>rake db:seed</tt>
+
 Run <tt>rails g devise:views</tt>
 
 Navigate to <tt>app/views/welcome</tt> and open <tt>index.html.erb</tt> in your text editor.
@@ -29,18 +31,8 @@ The ActiveAdmin gem integrates with:
 <tt>gem 'draper'</tt>
 <tt>gem 'pundit'</tt>
 
-If you wish to link admin to the existing User class:
-<tt>rails g active_admin:install User</tt>
 
-To create a separate AdminUser class:
-<tt>rails g active-admin:install</tt>
-
-Next, migrate and seed the database:
-<tt>rake db:migrate</tt>
-<tt>rake db:seed</tt>
-<tt>rails s</tt>
-
-No you can visit <tt>http:/localhost:3000/admin</tt> and login as the default user:
+ You can also visit <tt>http:/localhost:3000/admin</tt> and login as the default user:
 
 User = admin@example.com
 Password = password
