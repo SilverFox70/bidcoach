@@ -1,3 +1,3 @@
 # Be sure to restart your server when you modify this file.
 
-Rails.application.config.session_store :cookie_store, key: '_CMWA'
+Rails.application.config.session_store :cookie_store, key: '_Rails_with_admin_and_auth'

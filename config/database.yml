@@ -23,7 +23,7 @@ default: &default
 
 development:
   <<: *default
-  database: Career_management_tool_development
+  database: Rails_with_auth_development
 
   # The specified database role being used to connect to postgres.
   # To create additional roles in postgres see `$ createuser --help`.
