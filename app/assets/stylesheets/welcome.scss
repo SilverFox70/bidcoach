@@ -1,3 +1,30 @@
 // Place all the styles related to the welcome controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.profile_pic {
+	border-radius: 10px;
+}
+
+#round-button {
+	background-color: rgba(50, 50, 50, 0.8);
+	line-height: 70px;
+}
+
+#round-button:hover {
+	background-color: rgba(150, 150, 150, 0.1);
+	color: orange;
+}
+
+#round-button i {
+	font-size: 2em;
+	position: relative;
+	text-align: center;
+	margin: auto;
+	z-index: 999;
+
+}
+
+#round-button i:hover {
+	
+}
