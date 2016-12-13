@@ -38,6 +38,9 @@ gem 'activeadmin', github: 'activeadmin'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+# Configure the app to serve static assets in production mode
+gem 'rails_12factor', group: :production
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'pry-byebug'
